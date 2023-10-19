@@ -1,0 +1,84 @@
+Buatlah sebuah class Makanan dengan atribut nama dan kalori. Kemudian buat sebuah program untuk penghitung kalori berbasis Stack menggunakan Single Linked List Non-Circular. Khusus saat pertama kali dijalankan, program akan meminta pengguna memilih jenis kelamin, apabila pria maka batas kalori adalah 2000, sedangkan wanita adalah 1500. Setelah memilih jenis kelamin, program akan menampilkan menu utama yang memiliki 4 buah opsi yaitu: Makan, Buang, Riwayat Makanan, dan Keluar. 
+
+Pada saat memilih menu Makan, kita diminta untuk memasukkan nama dan kalori makanan. Apabila total kalori yang telah dimakan ditambah dengan makanan baru masih di bawah batas kalori yang diijinkan, maka makanan tersebut dapat ditambahkan. Jika tidak, maka makanan tersebut batal ditambahkan. Apabila proses tersebut telah selesai dilakukan, maka program akan kembali ke menu utama.
+
+Pada saat memilih menu Buang, maka program akan membuang separuh makanan urut dari belakang. Perhitungan ini berlaku pembulatan ke bawah, jika terdapat 9 data makanan, maka jumlah makanan yang dibuang adalah 4 (pembulatan dari 4,5). Apabila proses tersebut telah selesai dilakukan, maka program akan kembali ke menu utama.
+
+Pada saat memilih menu Riwayat Makanan, program akan mencetak seluruh data makanan yang terdiri dari nama dan kalori. Apabila proses tersebut telah selesai dilakukan, maka program akan kembali ke menu utama.
+
+Pada saat memilih menu Keluar, maka program akan berhenti.
+
+
+
+Contoh tampilan saat program pertama kali dijalankan:
+
+Pilih Jenis Kelamin:
+
+1. Pria
+
+2. Wanita
+
+Pilihan Anda : 1
+
+Kemudian program akan menampilkan menu utama:
+
+Pilih Menu:
+
+1. Makan
+
+2. Buang
+
+3. Riwayat Makanan
+
+4. Keluar
+
+Kalori saat ini: 0 kal
+
+Pilihan Anda : 1
+
+Masukkan nama : Ayam
+
+Masukkan kalori : 400
+
+Data Ayam (400 kal) disimpan!
+
+
+
+
+Contoh tampilan saat memilih menu buang makanan (diasumsikan ada 5 makanan tersimpan):
+
+Pilih Menu:
+
+1. Makan
+
+2. Buang
+
+3. Riwayat Makanan
+
+4. Keluar
+
+Kalori saat ini: 1300 kal
+
+Pilihan Anda : 2
+
+Makanan dibuang : Burger (300 kal), Indomie (250 kal)
+
+
+Contoh tampilan saat memilih riwayat makanan:
+
+Pilih Menu:
+
+1. Makan
+
+2. Buang
+
+3. Riwayat Makanan
+
+4. Keluar
+
+Kalori saat ini: 1150 kal
+
+Pilihan Anda : 3
+
+Riwayat makanan : Ayam (400 kal), Es Krim (600 kal), Keripik (150 kal)
+
